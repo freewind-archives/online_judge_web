@@ -1,4 +1,4 @@
-name := "oncline_judge_web"
+name := "online_judge_web"
 
 version := "1.0-SNAPSHOT"
 

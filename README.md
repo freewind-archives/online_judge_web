@@ -5,8 +5,8 @@ This project combines the 4 services:
 
 1. https://github.com/tw-scala-workshop/problem_manager_api 
 1. https://github.com/tw-scala-workshop/user_manager_api
-1. https://github.com/tw-scala-workshop/scala_code_judger_api
-1. https://github.com/tw-scala-workshop/answer_mamager_api
+1. https://github.com/tw-scala-workshop/scala_code_judge_api
+1. https://github.com/tw-scala-workshop/answer_manager_api
  
 to create a web site, will let user:
  
@@ -38,22 +38,5 @@ http://shuzu.org:10005
 
 Usage
 =====
-
-**Create new problem**
-
-`POST /problem`
-
-data:
-
-    {
-        "title": "problem title",
-        "level": 1,
-        "content" "content or descript",
-        "input": "intput data for testing",
-        "output": "expected output data for testing",
-        "author": "who contributes this problem"
-    }
-
-Response: 201 (created)
 
 **TODO**

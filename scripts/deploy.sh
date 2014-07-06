@@ -3,7 +3,7 @@
 cd $WORKSPACE
 play clean compile stage
 
-deploy=~/scala_workshop_publish/problem_manager_api
+deploy=~/scala_workshop_publish/online_judge_web
 mkdir -p $deploy
 
 cd $deploy
