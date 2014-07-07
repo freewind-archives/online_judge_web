@@ -24,7 +24,7 @@ technology stack
 Kanban:
 ========
 
-https://trello.com/b/fuwvCHmF/online-judge-web
+https://huboard.com/tw-scala-workshop/online_judge_web
 
 CI
 ======
