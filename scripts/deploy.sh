@@ -1,16 +1,11 @@
 #!/bin/bash
 
-cd $WORKSPACE
-play clean compile stage
+heroku apps:destroy online-judge-web --confirm
+heroku apps:create online-judge-web
 
-deploy=~/scala_workshop_publish/online_judge_web
-mkdir -p $deploy
+git checkout master
+git add build_version
+git commit -m "update build_version file"
 
-cd $deploy
-test -f scripts/stop.sh && ./scripts/stop.sh || true
-rm -rf *
-
-cd $deploy
-cp -r $WORKSPACE/target/universal/stage/* $deploy
-
-BUILD_ID=dontKillMe ./scripts/start.sh
+git remote add heroku git@heroku.com:online-judge-web.git
+git push heroku master
