@@ -34,7 +34,7 @@ http://jenkins.shuzu.org:8080/job/online_judge_web/
 Demo
 =====
 
-http://shuzu.org:10005
+http://online-judge-web.herokuapp.com
 
 Usage
 =====
