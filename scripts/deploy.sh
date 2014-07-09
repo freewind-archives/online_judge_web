@@ -1,6 +1,6 @@
 #!/bin/bash
 
-heroku apps:destroy online-judge-web --confirm
+heroku apps:destroy -a online-judge-web --confirm online-judge-web
 heroku apps:create online-judge-web
 
 git checkout master
